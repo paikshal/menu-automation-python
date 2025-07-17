@@ -1,34 +1,23 @@
-# 🔐 Python Automation Toolkit - Menu Based CLI App
+# 🛠️ Modular Automation System using Python
 
-A powerful Python CLI-based automation tool that combines multiple everyday tasks in one place. From messaging and calling to secure SSH access and social media automation — all features available through a clean, menu-based interface!
-
----
-
-## 📦 Features
-
-✅ **WhatsApp Messaging**  
-→ Send messages using Twilio or PyWhatKit via system WhatsApp.
-
-✅ **Phone Calls (Twilio + System App)**  
-→ Trigger phone calls using Twilio or your system's default calling app (flexible options).
-
-✅ **Instagram Automation**  
-→ Upload posts to Instagram directly via CLI.
-
-✅ **Email Sending**  
-→ Send emails with custom subject/body via SMTP.
-
-✅ **SMS Messaging**  
-→ Twilio-powered SMS sending with status check.
-
-✅ **SSH Remote Access**  
-→ Access and execute commands on remote systems using Paramiko — supports:
-- Username/Password
-- Private/Public Key
+This is a **terminal-based automation system** in Python that allows you to send WhatsApp messages, make phone calls, send SMS and emails, post on Instagram, and execute remote SSH commands — all from a single menu interface.
 
 ---
 
-## 🚀 How to Run
+## 📌 Features
+
+- ✅ WhatsApp Messaging (`pywhatkit` + `Twilio`)
+- 📞 Call (via `Twilio` or system default app)
+- 💬 SMS Sending
+- 📧 Email Automation
+- 📸 Instagram Post Uploading
+- 🖥️ SSH Remote Access (supports password & public key)
+
+---
+
+## 🧪 Requirements
+
+Install dependencies via:
 
 ```bash
-python main.py
+pip install -r requirements.txt
